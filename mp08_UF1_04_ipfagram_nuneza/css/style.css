@@ -1,0 +1,170 @@
+.menu{
+    height: 168px;
+    
+}
+.logo{
+    float: left;
+    padding-top: 60px;
+    padding-left: 60px;
+    
+    
+}
+.nav{
+    margin:auto;
+    padding-top: 15px;
+}
+.user{
+    float: right;
+    padding-top: 50px;
+    
+}
+
+.nav ul {
+    height: 50%;
+    width: 296px;
+    padding: 0;
+    margin: 45px auto;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: 0 -30px;
+   
+}
+
+.nav ul li{
+    width: 42px;
+    height: 42px;
+    margin: 4px;
+
+}
+.home{
+    background-image: url(../img/ifpagram_02.png);
+    background-repeat: no-repeat;
+    background-size: 600%;
+    background-position: 4px 5px ;
+}
+.search{
+    background-image: url(../img/ifpagram_02.png);
+    background-repeat: no-repeat;
+    background-size: 600%;
+    background-position: -68px 5px ;
+
+}
+.tv{
+    background-image: url(../img/ifpagram_02.png);
+    background-repeat: no-repeat;
+    background-size: 600%;
+    background-position: -140px 5px ;
+
+}
+.like{
+    background-image: url(../img/ifpagram_02.png);
+    background-repeat: no-repeat;
+    background-size: 600%;
+    background-position: -215px 5px ;
+
+}
+
+.contactes{
+    height: 195px;  
+    font-family: Helvetica;
+    
+}
+.contingut{
+    width: 1665px;
+    margin: auto;
+    
+    
+}
+li{
+    display: inline-block;
+    margin: 10px;
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 200px;
+}
+ul{
+    width: 1060px;
+    margin: auto;
+    padding: 36px;
+}
+#contacte01{ 
+    background-image: url(../img/ifpagram_07.png);
+}
+
+#contacte02{
+    background-image: url(../img/ifpagram_08.png);
+}
+
+#contacte03{
+    background-image: url(../img/ifpagram_09.png);
+}
+#contacte04{
+    background-image: url(../img/ifpagram_07.png);
+}
+#contacte05{ 
+    background-image: url(../img/ifpagram_08.png);
+}
+#contacte06{
+    background-image: url(../img/ifpagram_09.png);
+}
+#contacte07{
+    background-image: url(../img/ifpagram_07.png);
+}
+#contacte08{
+    background-image: url(../img/ifpagram_08.png);
+}
+#contacte09{ 
+    background-image: url(../img/ifpagram_09.png);
+}
+#contacte10{
+    background-image: url(../img/ifpagram_07.png);
+}
+.post{
+    width: 535px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    float: left;
+}
+.post img{
+    width: 535px;
+}
+.post div{
+    width: 150px;
+    margin: 5px;
+    height: 70px;
+}
+.post .postejador{
+    float: left;
+}
+.post .postejador img{
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    
+}
+.post .reaccions{
+    
+    float: right;
+    width: 170px;
+    
+}
+.post h5{
+    
+    height: 25px;
+    line-height: 25px;
+    font-weight: 700;
+    font-family: Helvetica;
+    
+}
+.post h6{
+    
+    height: 25px;
+    line-height: 25px;
+    font-family: Helvetica;
+}
