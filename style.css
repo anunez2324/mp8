@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url(img/fondo_porfoli.gif);
+    background-image: url(img/fondo_porfoli22.gif);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -25,17 +25,42 @@ body {
 
 }
 h1{
-    width: fit-content;
-    background-color: #F140E9;
+    width: 35rem;
+    height: 9rem;
+
+    padding-top: 0.4375rem;
+    
     color: #fff;
     z-index: 30000;
     font-size: 7rem;
     text-align: center;
     margin: 3rem auto;
-    border: solid 2rem #fff;
+    border: solid 1rem #fff;
+    border-radius: 2rem;
+   
+    font-family: 'Pixelify Sans', sans-serif;
+
+    color: #fff;
+    text-shadow: 
+        0 0 .2rem #fff,
+        0 0 2rem #F140E9,
+        0 0 0.8rem #F140E9,
+        0 0 2.8rem #F140E9,
+        0 0 1.3rem #F140E9;
+
+    box-shadow: 
+    0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #F140E9,
+    0 0 0.8rem #F140E9,
+    0 0 2.8rem #F140E9,
+    inset 0 0 2.3rem #F140E9;
+
+
+
 }
 .contingut {
-    margin-top: 20rem;
+    margin-top: 5rem;
     margin-left: 35rem;
     /*background: rgb(0, 0, 0, 0.5);*/
 
@@ -156,4 +181,8 @@ ul a:hover > img{
 
 .titol{
     padding-top: 5rem;
+    margin-left: 7rem;
 }
+
+
+
