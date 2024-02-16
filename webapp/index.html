@@ -37,6 +37,7 @@
     h1{
         font-family: 'Fantasia';
     }
+    
     @media screen and (max-width: 480px){
         body{
             background: red;
@@ -80,6 +81,41 @@
       scale: 1 1;
   }
 }
+ul{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+li{
+    float: left;
+    display: inline-block;
+    margin: 1rem;
+    background-color: whitesmoke;
+    width: 2rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 50%;
+}
+
+#petit{
+    font-size: 1.5rem;
+}
+
+
+#mitja{
+    font-size: 1.5rem;
+}
+
+#gran{
+    font-size: 1.5rem;
+}
+
+p{
+    margin: 1rem;
+}
 
 </style>
 
@@ -87,18 +123,25 @@
     <!-- vertical 360px x 666px
          horitzontal 722px x 270px-->
 <div class="progres"></div>
-<h1>APP</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
+    <ul>
+        <li id="petit">-</li>
+        <li id="mitja">0</li>
+        <li id="gran">+</li>
+    </ul>
 
+<h1>APP</h1>
+<div id="text">
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
+<p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel beatae doloribus maxime, exercitationem enim rerum explicabo vero esse blanditiis eius soluta adipisci necessitatibus suscipit eaque optio ullam nobis temporibus nihil.</p>
+</div>
 
 
 
@@ -107,3 +150,5 @@
 
 </body>
 </html>
+
+<script src="js/font.js"></script>
